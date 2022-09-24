@@ -1,0 +1,32 @@
+/* here you can put your own css to customize and override the theme */
+.dropdown-content{
+    display: none;
+    flex-flow: column;
+    background-color: white;
+    width: 130px;
+    align-items: flex-end;
+    height: 100px;
+    position: absolute;
+    top: 80%;
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 7px;
+
+}
+
+
+.nav-setting{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+
+}
+
+.nav-setting:hover .dropdown-content{
+    display: flex;
+}
+
+.img-responsive{
+    height: 37vh;
+}
